@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML FORM</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      @media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}   </style>
+  </head>
+  <body>
+    <center>
+    <div class="main">
+        <div class="survey">
+    <form id="survey">
+      <fieldset>
+        <legend>
+          <h1>Student's Registration Form</h1>
+        </legend>
+        <div class="lb">
+          First Name : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input
+            required
+            type="text"
+            placeholder="Enter First Name"
+          /><br><br>
+          Last Name :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input 
+            required
+            type="text"
+            placeholder="Enter Last Name"
+          /><br><br>
+          Street :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input required type="text" /><br /><br />
+          City :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input required type="text" /><br /><br />
+          State :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input required type="text" /><br /><br />
+          Pincode :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input required type="text" /><br /><br />
+          Contact number :
+          <input
+            required
+            type="text"
+            placeholder="+91 xxxxxxxxxxx"
+          /><br /><br />
+          <center>
+          Quality of product received :
+          <input
+            type="radio"
+            value="Excellent"
+            name="Quality of product received"
+          />Excellent
+          <input
+            type="radio"
+            value="Good"
+            name="Quality of product received"
+          />Good
+          <input
+            type="radio"
+            value="Bad"
+            name="Quality of product received"
+          />Bad<br /><br />
+          Value for money :
+          <input
+            type="radio"
+            value="Excellent"
+            name="Value for money"
+          />Excellent
+          <input type="radio" value="Good" name="Value for money" />Good
+          <input
+            type="radio"
+            value="Bad"
+            name="Value for money"
+          />Bad<br /><br />
+          Delivery :
+          <input type="radio" value="Excellent" name="Delivery" />Excellent
+          <input type="radio" value="Good" name="Delivery" />Good
+          <input type="radio" value="Bad" name="Delivery" />Bad<br /><br />
+          <input type="Submit" value="Submit" />
+          <input type="Reset" value="Reset" />
+        </center>
+        </div>
+
+      </fieldset>
+    </form>
+</div>
+</div>
+</center>
+  </body>
+</html>
